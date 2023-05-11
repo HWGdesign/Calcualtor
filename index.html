@@ -8,55 +8,41 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="container">
+     <main>
           <div class="calculator">
-               <div class="display-screen">
-                    <div class="display">
-                         <p>24</p>
-                    </div>
-
-                    <div class="buttons">
-                         <table>
-                              <tr>
-                                   <td> <button class="btn-operator" id="clear">C</button></td>
-                                   <td> <button class="btn-operator" id="/">&divide;</button></td>
-                                   <td> <button class="btn-operator" id="*">&times;</button></td>
-                                   
-                              
-                              </tr>
-                              <tr>
-                                   
-                                   <td> <button class="btn-operator" id="1">1</button></td>
-                                   <td> <button class="btn-operator" id="2">2</button></td>
-                                   <td> <button class="btn-operator" id="3">3</button></td>
-                                   <td> <button class="btn-operator" id="backspace">&#8730;</button></td>
-                                   
-                              
-                              </tr>
-                              <tr>
-                                   <td> <button class="btn-operator" id="4">4</button></td>
-                                   <td> <button class="btn-operator" id="5">5</button></td>
-                                   <td> <button class="btn-operator" id="6">6</button></td>
-                                   <td> <button class="btn-operator" id="add">+</button></td>
-                                   
-                              
-                              </tr>
-                              <tr>
-                                   <td> <button class="btn-operator" id="7">7</button></td>
-                                   <td> <button class="btn-operator" id="8">8</button></td>
-                                   <td> <button class="btn-operator" id="9">9</button></td>
-                                   <td> <button class="btn-operator" id="minus">-</button></td>
-                              
-                              </tr>
-                              <tr>                                   
-                                   <td> <button class="btn-operator" id=".">.</button></td>
-                                   <td> <button class="btn-operator" id="0">0</button></td>
-                                   <td> <button class="btn-operator" id="equal">=</button></td>
-                              </tr>
-                         </table>
-                    </div>
+               <input type="text" class="calculator-screen" value="0" disabled />
+             
+               <div class="calculator-keys">
+             
+                 <button type="button" class="operator" value="+">+</button>
+                 <button type="button" class="operator" value="-">-</button>
+                 <button type="button" class="operator" value="*">&times;</button>
+                 <button type="button" class="operator" value="/">&divide;</button>
+             
+                 <button type="button" value="7">7</button>
+                 <button type="button" value="8">8</button>
+                 <button type="button" value="9">9</button>
+             
+             
+                 <button type="button" value="4">4</button>
+                 <button type="button" value="5">5</button>
+                 <button type="button" value="6">6</button>
+             
+             
+                 <button type="button" value="1">1</button>
+                 <button type="button" value="2">2</button>
+                 <button type="button" value="3">3</button>
+             
+             
+                 <button type="button" value="0">0</button>
+                 <button type="button" class="decimal" value=".">.</button>
+                 <button type="button" class="all-clear" value="all-clear">AC</button>
+             
+                 <button type="button" class="equal-sign" value="=">=</button>
+             
                </div>
-          </div>
-     </div>
+
+             </div>
+     </main>
 </body>
 </html>
