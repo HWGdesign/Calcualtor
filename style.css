@@ -7,6 +7,7 @@
    }
    
 html {
+     color-scheme: light dark;
      box-sizing: border-box;
    }
 
@@ -23,12 +24,13 @@ body{
 }
 
 .calculator {
+     
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
      width: 300px;
-     background-color: white;
+     color-scheme: light dark;
      outline: 1px solid rgb(240, 233, 233);
      border-radius: 10px;
    }
@@ -40,7 +42,7 @@ body{
 
      border: none;
      border-radius: 10px;
-     color: #06314e;
+     color: light dark;
 
      text-align: right;
      padding-right: 10px;
@@ -57,7 +59,7 @@ body{
 button {
      height: 60px;
      width: 60px;
-     background-color: rgb(226, 223, 223);
+     color-scheme: light dark;
      border: none;
      border-radius: 5px;
      outline: none;
