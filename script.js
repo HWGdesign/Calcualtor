@@ -67,7 +67,7 @@ function showResult () {
         result = b / a;
         break;
         case '^':
-        result = b ** a;
+        result = a ** b;
         break;
     }
 
